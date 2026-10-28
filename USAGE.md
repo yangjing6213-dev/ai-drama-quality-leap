@@ -28,6 +28,28 @@ AI短剧质变Skill 会从剧本或分场梗概中整理人物意图、情绪变
 
 命令会从 GitHub 获取 Skill，并安装到当前 Windows 用户的 Codex 全局 Skill 目录。DO_NOT_TRACK=1 用于关闭该安装工具的匿名使用数据与安全审计请求。命令不会要求你输入 GitHub 密码或令牌。
 
+### 不想自己打开终端？让 AI 智能体代为安装
+
+你可以把下面这段话发给正在使用的 Codex 或其他 AI 智能体。它会先识别当前工具，再按该工具支持的方式安装；如果当前工具不受安装器支持，就应说明原因，不要擅自修改其他配置。
+
+```text
+请在你当前运行的 AI 智能体环境中安装这个 Skill：
+
+GitHub 仓库：yangjing6213-dev/ai-drama-quality-leap
+Skill 名称：ai-drama-quality-leap
+安装范围：当前用户全局可用
+
+请先确认当前智能体支持 Agent Skills，并查明适用于当前操作系统和智能体的官方安装方式。
+如果当前智能体是 Codex，且 Node.js 版本为 22.20 或更高，请运行 Vercel Skills CLI 安装命令：
+npx --yes skills add yangjing6213-dev/ai-drama-quality-leap --skill ai-drama-quality-leap --global --agent codex --yes
+运行命令时，请按当前终端的写法临时设置 DO_NOT_TRACK=1。
+如果是其他智能体，请使用安装器正式支持的智能体名称安装到该工具对应的全局 Skill 位置；不要把 Codex 的 agent 名称或目录直接套用过去。
+
+请勿删除或覆盖其他 Skill，不要修改无关设置，也不要向我索要密码或访问令牌。安装后请检查该 Skill 的 SKILL.md 确实可被当前智能体读取，并告诉我安装结果、安装位置和在新对话中如何唤起。如果无法安装，请停止并说明缺少的条件，不要改用无关安装方式。
+```
+
+这段文字是发给 AI 智能体的操作请求，不是终端命令。智能体运行安装器前仍需确认电脑已安装 Node.js 22.20 或更高版本并能连接互联网。Vercel Skills CLI 支持 Codex 和其他多种智能体；不同工具的安装目录和唤起方法可能不同，请查看它的[智能体支持列表](https://github.com/vercel-labs/skills/blob/main/docs/agents.md)和[命令说明](https://github.com/vercel-labs/skills/blob/main/docs/commands.md)。
+
 ### 怎么判断安装完成
 
 安装命令结束后，在 Codex 开一个新对话，输入：
