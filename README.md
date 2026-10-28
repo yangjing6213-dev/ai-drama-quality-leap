@@ -4,7 +4,7 @@
 
 把剧本直接交给 AI，常见结果是人物表情僵硬、说话时嘴巴机械张合，镜头也缺少明确的叙事目的。AI 不是演员；想让角色像真人一样表演，需要把“怎么演”讲清楚。**AI短剧质变Skill**会把这些导演判断整理成逐镜头提示词，供你交给兼容的 AI 工具继续创作。
 
-[![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)](https://github.com/yangjing6213-dev/ai-drama-quality-leap)
+[![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)](https://github.com/yangjing6213-dev/ai-drama-quality-leap/blob/main/README.md)
 [![License: MIT](https://img.shields.io/github/license/yangjing6213-dev/ai-drama-quality-leap?style=for-the-badge)](https://github.com/yangjing6213-dev/ai-drama-quality-leap/blob/main/LICENSE)
 
 第一次使用？请先看[一键安装与使用说明](USAGE.md)。
