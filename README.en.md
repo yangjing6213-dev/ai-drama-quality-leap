@@ -20,6 +20,7 @@ Give a compatible AI agent a script, scene, dialogue, or story outline. The Skil
 - Give dialogue shots natural mouth movement cues that follow the provided words or audio, with relaxed pauses between lines.
 - Select a suitable framing, one primary camera move, focal-length reference, focus target, depth of field, and lighting direction for each shot.
 - Check character, costume, prop, screen direction, lighting, and camera-axis continuity across shots.
+- Prepare prompts for character sheets, separate multi-view prop references, and a scene-wide spatial reference when needed; assign each reference a clear role in each shot.
 - Assemble the decisions into prompts you can review and copy into a video-generation tool.
 
 The Skill does not generate, edit, or export video. Video models may interpret prompts differently, so review the results and adjust them for your chosen tool.
@@ -111,7 +112,7 @@ For other agents, use their documented method to activate an installed Skill. Th
 ## A simple workflow
 
 ```text
-Script → scene beats and emotion → acting and camera direction → complete prompts → your review → video tool
+Script and available references → optional asset preparation → scene beats and emotion → acting and camera direction → complete prompts → your review → video tool
 ```
 
 The agent organizes the prompts. You review its directorial interpretations and use the video tool to generate and refine the final footage.
@@ -133,6 +134,7 @@ This repository contains Markdown documentation, not video files, application co
 ## Notes and limitations
 
 - **The character still looks stiff:** Add the actions and intentions before and after the line, then make the main visible performance change explicit for each shot. A video model may not follow every cue.
+- **Faces or props change between shots:** Ask the Skill to separate face identity, body/wardrobe, prop structure, and scene layout references. Neutral-gray backgrounds, even light, and sheet layouts are for asset preparation, not the final scene. Removing a conflicting small head from a body reference is optional and may not work for every model.
 - **Mouth movement does not match dialogue:** The Skill can describe natural mouth cues, but cannot guarantee synchronization. Supplying the actual audio to a video tool that supports audio input can help.
 - **Lens or aperture values have little effect:** Treat them as visual references. Also describe the subject size, focus target, and how much of the background should remain recognizable.
 - **An emotion reading feels wrong:** Emotional subtext may be an inference. Keep the script facts, then edit or remove interpretations that do not fit the story.
@@ -140,6 +142,8 @@ This repository contains Markdown documentation, not video files, application co
 - **Sources and license:** The project’s rewritten examples and original files are covered by the [MIT License](LICENSE). That license does not grant rights to tutorial videos, third-party trademarks, or other external materials. See [SOURCES.md](SOURCES.md).
 
 ## Version status
+
+2026-11-01: Added character, prop, and scene consistency guidance with four integrated prompt templates. The Chinese usage guide includes a copyable reference-preparation request. This update was organized and written with AI assistance; see [SOURCES.md](SOURCES.md) for provenance and adaptation scope.
 
 There is no separate version number or GitHub release yet. Use the current `SKILL.md` in this repository as the source of truth. Performance and prompt behavior have not been verified against every video-generation model.
 
