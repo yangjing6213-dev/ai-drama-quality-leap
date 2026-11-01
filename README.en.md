@@ -1,4 +1,4 @@
-![AI Drama Quality Leap Skill: AI concept illustration showing a script becoming acting direction and shot prompts](assets/readme/cover.png)
+![AI Drama Quality Leap Skill: AI concept illustration showing a script becoming acting direction and shot prompts](assets/readme/cover-en.png)
 
 # AI Drama Quality Leap Skill
 
@@ -26,6 +26,8 @@ Give a compatible AI agent a script, scene, dialogue, or story outline. The Skil
 - Assemble the decisions into prompts you can review and copy into a video-generation tool.
 
 The Skill does not generate, edit, or export video. Video models may interpret prompts differently, so review the results and adjust them for your chosen tool.
+
+![AI concept scenes illustrating acting details, dialogue timing, shot design, and continuity notes; the output is editable text prompts](assets/readme/overview-en.png)
 
 ## Who it is for
 
