@@ -1,3 +1,5 @@
+![AI短剧质变Skill：把「怎么演」讲给 AI 听，从剧本到逐镜头提示词的 AI 概念插画](assets/readme/cover.png)
+
 # AI短剧质变Skill
 
 [简体中文](README.md) | [English](README.en.md)

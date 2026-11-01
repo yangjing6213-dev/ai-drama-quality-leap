@@ -1,3 +1,5 @@
+![AI Drama Quality Leap Skill: AI concept illustration showing a script becoming acting direction and shot prompts](assets/readme/cover.png)
+
 # AI Drama Quality Leap Skill
 
 [简体中文](README.md) | English
