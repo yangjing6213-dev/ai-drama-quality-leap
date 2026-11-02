@@ -33,7 +33,9 @@ Give a compatible AI agent a script, scene, dialogue, or story outline. The Skil
 - Translate emotions into visible behavior: gaze, brows, lips, breathing, posture, hand movement, pauses, and release.
 - Give dialogue shots natural mouth movement cues that follow the provided words or audio, with relaxed pauses between lines.
 - Select a suitable framing, one primary camera move, focal-length reference, focus target, depth of field, and lighting direction for each shot.
-- Check character, costume, prop, screen direction, lighting, and camera-axis continuity across shots.
+- Select optional haze, dust, embers, or backlit rain from scene conditions, including their source, motion, and lighting relationship; leave them out when inappropriate.
+- Choose among eight shot setups spanning camera position, framing, composition, and fisheye projection, without treating them as eight new camera moves.
+- Check character, costume, prop, screen direction, lighting, weather state, and camera-axis continuity across shots.
 - Prepare prompts for character sheets, separate multi-view prop references, and a scene-wide spatial reference when needed; assign each reference a clear role in each shot.
 - Assemble the decisions into prompts you can review and copy into a video-generation tool.
 
@@ -152,12 +154,15 @@ This repository contains Markdown documentation, not video files, application co
 - **The character still looks stiff:** Add the actions and intentions before and after the line, then make the main visible performance change explicit for each shot. A video model may not follow every cue.
 - **Faces or props change between shots:** Ask the Skill to separate face identity, body/wardrobe, prop structure, and scene layout references. Neutral-gray backgrounds, even light, and sheet layouts are for asset preparation, not the final scene. Removing a conflicting small head from a body reference is optional and may not work for every model.
 - **Mouth movement does not match dialogue:** The Skill can describe natural mouth cues, but cannot guarantee synchronization. Supplying the actual audio to a video tool that supports audio input can help.
+- **Scenes feel flat or viewpoints repetitive:** Ask for scene-motivated atmospheric detail and camera placement. Clear air and conventional eye-level shots remain valid choices; haze, rain, tilt, and fisheye are not automatic enhancements.
 - **Lens or aperture values have little effect:** Treat them as visual references. Also describe the subject size, focus target, and how much of the background should remain recognizable.
 - **An emotion reading feels wrong:** Emotional subtext may be an inference. Keep the script facts, then edit or remove interpretations that do not fit the story.
 - **Privacy and cost:** Check the data settings of your AI service before pasting unpublished scripts. AI and video-service fees depend on the tools you choose.
 - **Sources and license:** The project’s rewritten examples and original files are covered by the [MIT License](LICENSE). That license does not grant rights to tutorial videos, third-party trademarks, or other external materials. See [SOURCES.md](SOURCES.md).
 
 ## Version status
+
+2026-11-02: Added modules L (atmospheric scene detail) and M (narrative viewpoints), with four scene-detail templates, eight shot setups, an integrated prompt, and conflict checks. Snow is an optional extension for scripts that explicitly require it. The update uses original wording and preserves the acting, lip-sync, and reference-consistency guidance. Video frames and end cards were checked; a reliable independent audio transcript and tests in a video-generation model are not available.
 
 2026-11-01: Added character, prop, and scene consistency guidance with four integrated prompt templates. The Chinese usage guide includes a copyable reference-preparation request. This update was organized and written with AI assistance; see [SOURCES.md](SOURCES.md) for provenance and adaptation scope.
 
