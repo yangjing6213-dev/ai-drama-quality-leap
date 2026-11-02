@@ -1,13 +1,25 @@
-![AI Drama Quality Leap Skill: AI concept illustration showing a script becoming acting direction and shot prompts](assets/readme/cover-en.png)
 
 # AI Drama Quality Leap Skill
 
+> A focused workflow for the task described by this project.
+
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white) ![YAML](https://img.shields.io/badge/YAML-CB171E?style=flat-square&logo=yaml&logoColor=white) [![MIT](https://img.shields.io/badge/MIT-yellowgreen?style=flat-square)](LICENSE)
+
+
+![Project cover](assets/portfolio-promo-2026-11-02/cover-en.png)
+
+中文封面与配图：[Cover](assets/portfolio-promo-2026-11-02/cover-zh.png) · [Overview](assets/portfolio-promo-2026-11-02/overview-zh.png)
+
 [简体中文](README.md) | English
 
-[![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)](https://github.com/yangjing6213-dev/ai-drama-quality-leap/blob/main/README.md)
-[![License: MIT](https://img.shields.io/github/license/yangjing6213-dev/ai-drama-quality-leap?style=for-the-badge)](https://github.com/yangjing6213-dev/ai-drama-quality-leap/blob/main/LICENSE)
-
 **AI is not a human actor.** Giving an AI a script alone rarely explains how a character should perform. This Skill turns a script into specific, shot-by-shot acting, emotion, natural dialogue mouth movement, and cinematic camera cues—so you can direct AI drama scenes with more believable performances.
+
+## Workflow diagram (AI concept illustration)
+### Workflow illustration (concept only)
+
+![Project workflow concept illustration](assets/portfolio-promo-2026-11-02/overview-en.png)
+
+> AI-generated concept illustration: workflow only, not a real interface, runtime data, or result.
 
 ## The problem it addresses
 

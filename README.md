@@ -1,15 +1,20 @@
-![AI短剧质变Skill：把「怎么演」讲给 AI 听，从剧本到逐镜头提示词的 AI 概念插画](assets/readme/cover.png)
 
 # AI短剧质变Skill
+
+> 帮助短剧创作者把剧本拆成表演细节、对白节奏与逐镜头提示词，再交给视频工具制作。
+
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white) ![YAML](https://img.shields.io/badge/YAML-CB171E?style=flat-square&logo=yaml&logoColor=white) [![MIT](https://img.shields.io/badge/MIT-yellowgreen?style=flat-square)](LICENSE)
+
+
+![项目封面](assets/portfolio-promo-2026-11-02/cover-zh.png)
+
+英文封面与配图：[English cover](assets/portfolio-promo-2026-11-02/cover-en.png) · [English overview](assets/portfolio-promo-2026-11-02/overview-en.png)
 
 [简体中文](README.md) | [English](README.en.md)
 
 帮助 AI 短剧创作者把剧本拆成更具体的表演、情绪和镜头提示词，让生成的人物更自然、镜头更有电影叙事感。
 
 把剧本直接交给 AI，常见结果是人物表情僵硬、说话时嘴巴机械张合，镜头也缺少明确的叙事目的。AI 不是演员；想让角色像真人一样表演，需要把“怎么演”讲清楚。**AI短剧质变Skill**会把这些导演判断整理成逐镜头提示词，供你交给兼容的 AI 工具继续创作。
-
-[![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)](https://github.com/yangjing6213-dev/ai-drama-quality-leap/blob/main/README.md)
-[![License: MIT](https://img.shields.io/github/license/yangjing6213-dev/ai-drama-quality-leap?style=for-the-badge)](https://github.com/yangjing6213-dev/ai-drama-quality-leap/blob/main/LICENSE)
 
 第一次使用？请先看[一键安装与使用说明](USAGE.md)。
 
@@ -42,6 +47,11 @@
 
 <a id="example"></a>
 ## 二、先看效果
+### 项目流程图（概念示意）
+
+![项目流程概念示意](assets/portfolio-promo-2026-11-02/overview-zh.png)
+
+> AI 概念插画：展示项目思路，不代表真实软件界面、运行数据或实际结果。
 
 Skill 内置了一个文字示例（不是实际生成的视频或效果对比）：
 
