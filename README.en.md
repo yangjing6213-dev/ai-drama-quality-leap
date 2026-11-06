@@ -35,6 +35,7 @@ Give a compatible AI agent a script, scene, dialogue, or story outline. The Skil
 - Select a suitable framing, one primary camera move, focal-length reference, focus target, depth of field, and lighting direction for each shot.
 - Select optional haze, dust, embers, or backlit rain from scene conditions, including their source, motion, and lighting relationship; leave them out when inappropriate.
 - Choose among eight shot setups spanning camera position, framing, composition, and fisheye projection, without treating them as eight new camera moves.
+- Describe how the available light falls on a character. For a quiet line by a window, a prompt might read “Window light from her front left catches her left cheek. Her right cheek falls into soft shadow, and you can still see her lips shape the final word and relax afterward.”
 - Check character, costume, prop, screen direction, lighting, weather state, and camera-axis continuity across shots.
 - Prepare prompts for character sheets, separate multi-view prop references, and a scene-wide spatial reference when needed; assign each reference a clear role in each shot.
 - Assemble the decisions into prompts you can review and copy into a video-generation tool.
@@ -161,6 +162,8 @@ This repository contains Markdown documentation, not video files, application co
 - **Sources and license:** The project’s rewritten examples and original files are covered by the [MIT License](LICENSE). That license does not grant rights to tutorial videos, third-party trademarks, or other external materials. See [SOURCES.md](SOURCES.md).
 
 ## Version status
+
+2026-11-06 adds five ways to light a character in module N, covering Rembrandt, butterfly, split and rim lighting, plus a focused pool of light in a night scene. The Skill uses the light sources established in the script and describes where the light falls and which details need to stay visible in shadow.
 
 2026-11-02: Added modules L (atmospheric scene detail) and M (narrative viewpoints), with four scene-detail templates, eight shot setups, an integrated prompt, and conflict checks. Snow is an optional extension for scripts that explicitly require it. The update uses original wording and preserves the acting, lip-sync, and reference-consistency guidance. Video frames and end cards were checked; a reliable independent audio transcript and tests in a video-generation model are not available.
 
